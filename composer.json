@@ -1,5 +1,5 @@
 {
-    "name": "php-imap/php-imap",
+    "name": "advocadogmbh/php-imap",
     "description": "Manage mailboxes, filter/get/delete emails in PHP (supports IMAP/POP3/NNTP)",
     "keywords": [
         "PHP",
@@ -20,7 +20,8 @@
         }
     ],
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "minimum-stability": "dev"
     },
     "require": {
         "php": "^7.2 || ^8.0 <8.1",
